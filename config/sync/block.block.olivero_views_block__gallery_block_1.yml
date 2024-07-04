@@ -1,0 +1,33 @@
+uuid: f3f84553-c6fe-4456-98d4-e29cd964ae6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.gallery
+  module:
+    - node
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__gallery_block_1
+theme: olivero
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:gallery-block_1'
+settings:
+  id: 'views_block:gallery-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      product: product

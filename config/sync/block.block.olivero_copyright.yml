@@ -1,0 +1,25 @@
+uuid: 97f390d3-ca15-4e28-9790-2e12048e599d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.copyright
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_copyright
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'system_menu_block:copyright'
+settings:
+  id: 'system_menu_block:copyright'
+  label: Copyright
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: e009dfa0-1a8b-4a40-ac63-70e15c70b54a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_tag
+    - node.type.news
+    - node.type.product
+id: node.news.field_product_tag
+field_name: field_product_tag
+entity_type: node
+bundle: news
+label: 'Product Tag'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product: product
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

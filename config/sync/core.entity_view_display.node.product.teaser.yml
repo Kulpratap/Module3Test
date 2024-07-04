@@ -1,0 +1,46 @@
+uuid: d2c826e2-2805-4e97-abc7-5c287eb22c3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product.body
+    - field.field.node.product.field_product_image
+    - flexslider.optionset.default
+    - node.type.product
+  module:
+    - flexslider_fields
+    - text
+    - user
+id: node.product.teaser
+targetEntityType: node
+bundle: product
+mode: teaser
+content:
+  body:
+    type: text_trimmed
+    label: above
+    settings:
+      trim_length: 50
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_product_image:
+    type: flexslider
+    label: above
+    settings:
+      optionset: default
+      image_style: ''
+      caption: alt
+      image_loading:
+        attribute: lazy
+      image_link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

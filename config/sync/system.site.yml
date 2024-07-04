@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: e741d6cb-cd26-46c1-a96c-98354cef2a82
+name: 'Local Employee Management Portal'
+mail: kulpratap98@gmail.com
+slogan: ''
+page:
+  403: /node/27
+  404: /node/20
+  front: /node/14
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null
