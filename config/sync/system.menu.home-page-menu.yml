@@ -1,0 +1,8 @@
+uuid: 762823f2-6545-4075-8aac-bc80dd3235a8
+langcode: en
+status: true
+dependencies: {  }
+id: home-page-menu
+label: 'Home page menu'
+description: ''
+locked: false

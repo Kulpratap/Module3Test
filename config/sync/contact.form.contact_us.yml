@@ -1,0 +1,12 @@
+uuid: 7442ea24-8038-423a-9280-e20c82f99f15
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Get in Touch'
+recipients:
+  - kulpratap98@gmail.com
+reply: ''
+weight: 0
+message: Submitted
+redirect: ''
