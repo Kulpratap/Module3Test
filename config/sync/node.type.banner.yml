@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Banner
 type: banner
-description: null
+description: 'This is a content type to create banner'
 help: null
 new_revision: true
 preview_mode: 1

@@ -17,7 +17,7 @@ plugin: 'system_menu_block:home-page-menu'
 settings:
   id: 'system_menu_block:home-page-menu'
   label: 'Home page menu'
-  label_display: visible
+  label_display: '0'
   provider: system
   level: 1
   depth: 0

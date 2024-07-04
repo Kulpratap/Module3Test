@@ -6,8 +6,8 @@ name: 'Local Employee Management Portal'
 mail: kulpratap98@gmail.com
 slogan: ''
 page:
-  403: ''
-  404: ''
+  403: /node/27
+  404: /node/20
   front: /node/14
 admin_compact_mode: false
 weight_select_max: 100
